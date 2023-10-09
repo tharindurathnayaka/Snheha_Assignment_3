@@ -1,0 +1,319 @@
+$date
+	Mon Oct  9 18:02:43 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module proc_tb $end
+$scope module simple_proc1 $end
+$var wire 16 ! R0 [15:0] $end
+$var wire 16 " R1 [15:0] $end
+$var wire 16 # R2 [15:0] $end
+$var wire 16 $ R3 [15:0] $end
+$var wire 16 % R4 [15:0] $end
+$var wire 16 & R5 [15:0] $end
+$var wire 16 ' R6 [15:0] $end
+$var wire 16 ( R7 [15:0] $end
+$var wire 4 ) TICK_V [3:0] $end
+$var wire 16 * bus [15:0] $end
+$var wire 1 + clk $end
+$var wire 9 , din [8:0] $end
+$var wire 1 - rst $end
+$var wire 16 . W_R7 [15:0] $end
+$var wire 16 / W_R6 [15:0] $end
+$var wire 16 0 W_R5 [15:0] $end
+$var wire 16 1 W_R4 [15:0] $end
+$var wire 16 2 W_R3 [15:0] $end
+$var wire 16 3 W_R2 [15:0] $end
+$var wire 16 4 W_R1 [15:0] $end
+$var wire 16 5 W_R0 [15:0] $end
+$var wire 9 6 W_IR [8:0] $end
+$var wire 16 7 W_G [15:0] $end
+$var wire 16 8 W_A [15:0] $end
+$var wire 4 9 Tick [3:0] $end
+$var wire 16 : Sign_extender [15:0] $end
+$var wire 16 ; BUS [15:0] $end
+$var wire 16 < ALU_Result [15:0] $end
+$var reg 3 = ALU_OP [2:0] $end
+$var reg 1 > A_enable $end
+$var reg 1 ? G_enable $end
+$var reg 1 @ IR_enable $end
+$var reg 4 A Mux_sel [3:0] $end
+$var reg 1 B R0_enable $end
+$var reg 1 C R1_enable $end
+$var reg 1 D R2_enable $end
+$var reg 1 E R3_enable $end
+$var reg 1 F R4_enable $end
+$var reg 1 G R5_enable $end
+$var reg 1 H R6_enable $end
+$var reg 1 I R7_enable $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+b1111 A
+0@
+0?
+0>
+b111 =
+b0 <
+b0 ;
+bx :
+b0 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+1-
+bx ,
+0+
+b0 *
+b0 )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#2
+b0 !
+b0 5
+b0 "
+b0 4
+b0 #
+b0 3
+b0 $
+b0 2
+b0 %
+b0 1
+b0 &
+b0 0
+b0 '
+b0 /
+b0 (
+b0 .
+b0 8
+b0 7
+b0 6
+#5
+1+
+#6
+b10100011 :
+b10100011 ,
+0-
+#10
+0+
+#15
+1@
+b1 )
+b1 9
+1+
+#20
+0+
+#22
+b10100011 6
+#25
+b100 A
+1>
+0@
+b10 )
+b10 9
+1+
+#26
+b11 :
+b11 ,
+#30
+0+
+#35
+b11 *
+b11 ;
+b0 =
+1?
+b1000 A
+0>
+b100 )
+b100 9
+1+
+#36
+b11 <
+#40
+0+
+#42
+b11 7
+#45
+b0 <
+1F
+b111 =
+b1001 A
+0?
+b1000 )
+b1000 9
+1+
+#46
+b10101011 :
+b10101011 ,
+#50
+0+
+#52
+b11 %
+b11 1
+#55
+b0 *
+b0 ;
+1@
+b1111 A
+0F
+b1 )
+b1 9
+1+
+#60
+0+
+#62
+b10101011 6
+#65
+b101 A
+1>
+0@
+b10 )
+b10 9
+1+
+#66
+b10 :
+b10 ,
+#70
+0+
+#75
+b10 *
+b10 ;
+b0 =
+1?
+b1000 A
+0>
+b100 )
+b100 9
+1+
+#76
+b10 <
+#80
+0+
+#82
+b10 7
+#85
+b0 <
+1G
+b111 =
+b1001 A
+0?
+b1000 )
+b1000 9
+1+
+#90
+0+
+#92
+b10 &
+b10 0
+#95
+b0 *
+b0 ;
+1@
+b1111 A
+0G
+b1 )
+b1 9
+1+
+#96
+b1101100 :
+b1101100 ,
+#100
+0+
+#102
+b1101100 6
+#105
+b10 *
+b10 ;
+b101 A
+1>
+0@
+b10 )
+b10 9
+1+
+#110
+0+
+#112
+b10 8
+#115
+b100 <
+b11 *
+b11 ;
+b0 =
+1?
+b100 A
+0>
+b100 )
+b100 9
+1+
+#116
+b101 <
+#120
+0+
+#122
+b101 7
+#125
+b0 <
+b101 *
+b101 ;
+1G
+b111 =
+b1001 A
+0?
+b1000 )
+b1000 9
+1+
+#130
+0+
+#132
+b101 &
+b101 0
+#135
+b0 *
+b0 ;
+1@
+b1111 A
+0G
+b1 )
+b1 9
+1+
+#140
+0+
+#145
+b101 *
+b101 ;
+b101 A
+1>
+0@
+b10 )
+b10 9
+1+
+#146
